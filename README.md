@@ -28,6 +28,7 @@ List of supported GPU can be found in here :
 
 # Screenshot
 About My Mac
+
 ![Image of About my Mac](Screenshot.png)
 
 # Recommended Tutorial for Generating Your Own OpenCore
