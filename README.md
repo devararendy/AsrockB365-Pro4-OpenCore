@@ -21,10 +21,14 @@ List of supported GPU can be found in here :
 - Sleep Mode : If you are only use Integrated GPU (Intel UHD 630), Sleep is not working.
     But you can put screensaver, to prevent the PC from sleeping.
     If you are using Dedicated GPU that supported natively by macOS, Sleep is working.
-- Location : Couldn't find current location
+- Location : Couldn't find current location, 
+    Edit : Now location is working after installing WiFi Module.
+    I'm Using bcm943224pciebt2 with an adapter and Add AirportBrcmFixup.kext. Makesure your Adapter can fit into your Mobo,
+    Cz I bought M.2 adapter for bcm943224pciebt2, but it's a bit overlaped with PCI-E x1 socket.
+    In this Repo, you can checkout my branch dGPU, it has AirportBrcmFixup.kext installed but you must use dedicated GPU
 
 # What's working ?
-- So far everythings are okay except those 2 things.
+- So far everythings are okay now.
 
 # Screenshot
 About My Mac
